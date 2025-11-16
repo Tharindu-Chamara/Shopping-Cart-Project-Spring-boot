@@ -1,3 +1,13 @@
 spring:
   application:
     name: dream-shop
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/shopping_cart
+    username: root
+    password: 99990000
+
+  jpa:
+    hibernate:
+      ddl-auto : update
+    show sql: true
